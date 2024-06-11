@@ -1,0 +1,57 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    font-family: Arial, sans-serif;
+    color: rgb(102, 39, 39);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    max-width: 768px;
+    margin: auto;
+}
+
+.resume-header {
+    grid-column: 1 / -1;
+    text-align: center;
+    border-bottom: 2px solid rgb(160, 57, 57);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-info span {
+    display: block;
+}
+
+.summary, .experience, .education, .skills, .strengths, .languages {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: rgb(102, 39, 39);
+}
+
+h2 {
+    font-size: 18px;
+    border-bottom: 1px solid rgb(95, 35, 35);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+.sidebar {
+    padding-left: 20px;
+    border-left: 2px solid #666;
+}
